@@ -15,3 +15,10 @@ for (let i = 0; i < packingList.length; i++) {
 }
 
 packingList[3];
+
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
