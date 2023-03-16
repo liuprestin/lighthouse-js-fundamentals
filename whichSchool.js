@@ -1,19 +1,18 @@
 const whichSchool = function (age) {
-    //note: could type check age 
+  //note: could type check age
 
-    if (age < 13) {
-        return "Elementry School";
-    }else if ((age >= 13) || (age <= 18) ){
-        return "Secondary School"
-    }else {
-        return "Lighthouse Labs"
-    }
-
-}
+  if (age < 13) {
+    return "Elementry School";
+  } else if (age >= 13 || age <= 18) {
+    return "Secondary School";
+  } else {
+    return "Lighthouse Labs";
+  }
+};
 
 console.log(whichSchool("2"));
 
-/**
+/**p
  * Example Output:
  * 
  * console.log("I am 35. Which school should I go to?");
